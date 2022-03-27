@@ -31,6 +31,20 @@ function addNums(num1=4,num2=5,num3=6){
 }
 console.log(addNums());//4+5+6 = 15
 
+//we can assign new values
+console.log(addNums(1,2,3));//1+2+3=6
+
+//we can assign new values
+console.log(addNums(1,2));//1+2+6=9
+
+////Craete a function that returns a string
+
+function personInfo(name, age, city){
+  
+  return 'Hi '+name+'. '+'You are '+age+' years old. You are from '+city;
+}
+
+console.log(personInfo('John',50,'LA'));
 
 
 
